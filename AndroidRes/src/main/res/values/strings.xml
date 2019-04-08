@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">AndroidRes</string>
+    <string name="net_error">网络不可用</string>
+    <string name="do_ok">操作成功</string>
+    <string name="do_error">操作失败</string>
 </resources>
