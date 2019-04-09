@@ -8,6 +8,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.sinothk.android.res.R;
+import com.sinothk.comm.utils.ActivityUtil;
 import com.sinothk.comm.utils.StatusBarUtil;
 import com.sinothk.comm.utils.StringUtil;
 
@@ -17,6 +18,7 @@ public abstract class TitleBarBaseActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(getLayout());
+        ActivityUtil.addActivity(this);
 
         setTitleTransparencyBar();
     }
