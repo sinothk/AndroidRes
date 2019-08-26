@@ -19,3 +19,6 @@ Android 常用资源
             implementation 'com.github.sinothk:AndroidRes:1.0.0409'
     }
 
+  ## 参考
+    适配：
+      https://github.com/wildma/ScreenAdaptation
