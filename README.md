@@ -16,6 +16,9 @@ Android 常用资源
   ## Step 2. Add the dependency
 
     dependencies {
-            implementation 'com.github.sinothk:AndroidRes:1.0.0409'
+             implementation 'com.github.sinothk:AndroidRes:1.19.0826'
     }
 
+  ## 参考
+    适配：
+      https://github.com/wildma/ScreenAdaptation
