@@ -16,7 +16,7 @@ Android 常用资源
   ## Step 2. Add the dependency
 
     dependencies {
-             implementation 'com.github.sinothk:AndroidRes:1.19.0826'
+             implementation 'com.github.sinothk:AndroidRes:2.x.1012'
     }
 
   ## 参考
