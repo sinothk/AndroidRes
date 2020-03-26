@@ -174,4 +174,12 @@
          &lt;!&ndash;Activity进入退出动画&ndash;&gt;
          <item name="android:windowAnimationStyle">@style/ActivityInOut</item>-->
     </style>
+
+    <style name="AppWelcomeTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
 </resources>
